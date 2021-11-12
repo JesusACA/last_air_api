@@ -2,9 +2,9 @@ version: "3.7"
 services:
   api:
     build:
-      context: /home/ubuntu/Huvica_Backend
-      dockerfile: /home/ubuntu/Huvica_Backend/Dockerfile
-    image: huvica/api:1.3.2
+      context: /home/ubuntu/last_air_api
+      dockerfile: /home/ubuntu/last_air_api/Dockerfile
+    image: atla/api:1.0.0
     container_name: api
     user: "node"
     hostname: node
